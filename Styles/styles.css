@@ -56,6 +56,10 @@ a {
   text-decoration: none;
 }
 
+.footer {
+  cursor: none;
+}
+
 /* Header */
 
 .header {
@@ -137,34 +141,57 @@ a {
 }
 
 .studio {
+  font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
+  color: #212121;
+}
+
+.studio:hover {
   color: #2196f3;
 }
 
 .portfolio {
+  font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   color: #212121;
 }
 
+.portfolio_header:hover {
+  /* background-color: #2196f3; */
+}
+
 .contacs {
+  font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   color: #212121;
+}
+
+.mail:hover,
+.studio:hover,
+.tel:hover,
+.portfolio:hover,
+.contacs:hover {
+  color: #2196f3;
 }
 
 /* Top line */
 
 .mail {
+  font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
-  color: #2196f3;
+  letter-spacing: 0.02em;
+  color: #757575;
 }
 
 .tel {
+  font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
   color: #757575;
 }
 
@@ -204,6 +231,9 @@ a {
   text-align: center;
   cursor: pointer;
   text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
 }
 
 .button_text {
@@ -290,6 +320,9 @@ a {
 .team_tekst {
   padding-top: 94px;
   padding-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
   text-align: center;
 }
 
@@ -340,12 +373,14 @@ a {
 /* Section Portfolio */
 
 .section_portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
   background-color: #ffff;
 }
 
 .conteiner_portfolio {
   justify-content: end;
-  margin-top: 94px;
+  /* padding-top: 94px; */
   border: 0px;
   /* background-color: #2196f3; */
 }
@@ -369,17 +404,18 @@ a {
 .img_portfolio {
   display: flex;
   flex-wrap: wrap;
+  /* background-color: tomato; */
 }
 
 .portfolio_tekst {
-  /* padding: 20px 24px; */
+  width: 370px;
 }
 
 .portfolio_list {
   width: 370px;
   border: 1px solid #eeeeee;
   margin-right: 30px;
-  margin-bottom: 8px;
+  margin-bottom: 30px;
   background-color: #ffffff;
 }
 
@@ -387,20 +423,31 @@ a {
   margin-right: 0;
 }
 
-.button_listen {
-  padding: 6px 25px;
-  background-color: #2196f3;
-  border: #2196f3;
-  border-radius: 4px;
-  cursor: pointer;
+.portfolio_list:nth-child(n + 7) {
+  margin-bottom: 8px;
 }
 
-.button_active {
+.button_listen {
+  padding: 6px 25px;
+  background-color: #f5f4fa;
+  border: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
   text-align: center;
-  color: #fff;
+  color: #212121;
+}
+
+.button_active {
+  /* font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121; */
 }
 
 .button_portfolio {
@@ -409,35 +456,63 @@ a {
   background-color: #f5f4fa;
   border: #f5f4fa;
   cursor: pointer;
-}
-
-.button_prtfl {
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
   text-align: center;
   color: #212121;
   border: #212121;
 }
 
+/* .button_prtfl {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #212121;
+  border: #212121;
+} */
+
+/* .button_active:hover,
+.button_prtfl:hover {
+  color: #ffffff;
+} */
+
+.button_portfolio:hover,
+.button_listen:hover {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
 .about_name {
-  padding-left: 24px;
-  padding-top: 20px;
+  width: 322px;
+  margin: 20px 24px 4px 24px;
+  /* padding-left: 24px;
+  padding-top: 20px; */
   font-weight: 700;
   font-size: 18px;
   line-height: calc(36 / 18);
   color: #212121;
   text-decoration: none;
+  /* background-color: royalblue; */
 }
 
 .about_text {
-  padding-top: 4px;
+  width: 322px;
+  margin: 0 24px 20px 24px;
+  /* padding-top: 4px;
   padding-left: 24px;
-  padding-bottom: 20px;
+  padding-bottom: 20px; */
   font-weight: 400;
   font-size: 16px;
   line-height: calc(30 / 16);
   color: #757575;
+  /* background-color: red; */
 }
 
 /* Footer */
@@ -472,6 +547,7 @@ a {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: #ffffff;
+  cursor: auto;
 }
 
 .footer_mail {
@@ -479,6 +555,7 @@ a {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: rgba(255, 255, 255, 0.6);
+  cursor: auto;
 }
 
 .footer_tel {
@@ -486,4 +563,5 @@ a {
   font-size: 14px;
   line-height: calc(24 / 14);
   color: rgba(255, 255, 255, 0.6);
+  cursor: auto;
 }
