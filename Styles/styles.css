@@ -202,11 +202,13 @@ a {
   background: #2f303a;
   margin-bottom: 94px;
   text-align: center;
+  background-image: url(/img/bgc-hero.svg);
 }
 
 .main_class {
   /* height: 600px; */
   text-align: center;
+  /* background-image: url(/img/bgc-hero.svg); */
 }
 
 .hero_title {
