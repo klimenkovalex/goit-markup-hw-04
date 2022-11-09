@@ -530,8 +530,8 @@ a {
 
 .cust_link {
   display: flex;
-  padding: 0px;
-  margin: 0px;
+  /* padding: 0; */
+  /* margin: 0; */
   outline: 1px solid red;
   /* background-color: #3a2f2f; */
 }
@@ -539,8 +539,7 @@ a {
 .meta {
   width: 150px;
   height: 120px;
-  border: 0;
-  /* background-color: tomato; */
+  /* border: 0; */
 }
 
 .dfg {
@@ -552,15 +551,29 @@ a {
   display: inline-block;
   width: 150px;
   height: 150px;
-  color: #000000;
+  outline: 1px solid red;
+  border-radius: 6px;
+  /* background-color: #2196f3; */
 }
 
 /* .icon {
-  width: 105px;
   display: inline-block;
+  width: 1em;
+  height: 1em;
+  stroke-width: 0;
   stroke: currentColor;
-  fill: brown;
+  fill: currentColor;
+}
+.icon-Object {
+  width: 1.0712890625em;
 } */
+
+.icon {
+  /* width: 105px; */
+  /* display: inline-block; */
+  /* stroke: currentColor; */
+  fill: brown;
+}
 
 .meta:not(:last-child) {
   margin-right: 30px;
