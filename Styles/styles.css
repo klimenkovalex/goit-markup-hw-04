@@ -530,16 +530,22 @@ a {
 
 .cust_link {
   display: flex;
-  /* padding: 0px;
-  margin: 0px; */
+  padding: 0px;
+  margin: 0px;
   outline: 1px solid red;
-  background-color: #3a2f2f;
+  /* background-color: #3a2f2f; */
 }
 
 .meta {
-  padding: auto;
+  width: 150px;
+  height: 120px;
   border: 0;
-  background-color: tomato;
+  /* background-color: tomato; */
+}
+
+.dfg {
+  width: 120px;
+  height: 120px;
 }
 
 .icon {
@@ -547,14 +553,14 @@ a {
   width: 150px;
   height: 150px;
   color: #000000;
-  background-color: #ffff;
 }
 
-.icon {
-  /* display: inline-block; */
-  /* stroke: currentColor; */
+/* .icon {
+  width: 105px;
+  display: inline-block;
+  stroke: currentColor;
   fill: brown;
-}
+} */
 
 .meta:not(:last-child) {
   margin-right: 30px;
@@ -563,7 +569,7 @@ a {
 .customers {
   margin-bottom: 50px;
   text-align: center;
-  /* background-color: #2f303a; */
+  background-color: #2f303a;
 }
 
 .cust_img {
