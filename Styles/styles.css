@@ -553,7 +553,7 @@ a {
 .icon {
   /* display: inline-block; */
   /* stroke: currentColor; */
-  /* fill: currentColor; */
+  fill: brown;
 }
 
 .meta:not(:last-child) {
