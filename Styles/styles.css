@@ -524,6 +524,10 @@ a {
   display: flexbox;
 }
 
+.customers {
+  margin-bottom: 50px;
+}
+
 .regular_conteiner {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -532,7 +536,8 @@ a {
 .cust_link {
   display: flex;
   /* padding: 0; */
-  /* margin: 0; */
+  margin-top: 16px;
+  margin-bottom: 16px;
   outline: 1px solid red;
   /* background-color: #3a2f2f; */
 }
@@ -567,18 +572,13 @@ a {
   height: 80px;
   outline: 1px solid red;
   border-radius: 6px;
-  background-color: #2196f3;
+  background-color: #fff;
+  fill: #AFB1B8;
 }
 
 .icon {
   /* stroke: currentColor; */
   fill: brown;
-}
-
-.customers {
-  margin-bottom: 50px;
-  text-align: center;
-  background-color: #2f303a;
 }
 
 .cust_img {
