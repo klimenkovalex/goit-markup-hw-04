@@ -398,8 +398,8 @@ a {
   /* padding: 0; */
   /* margin-top: 16px;
   margin-bottom: 16px; */
-  outline: 1px solid red;
-  background-color: #3a2f2f;
+  /* outline: 1px solid red; */
+  /* background-color: #3a2f2f; */
 }
 
 .meta {
@@ -408,45 +408,48 @@ a {
   width: 170px;
   /* height: 92px; */
   /* border: 0; */
-  justify-content: center;
-  background-color: red;
+  /* justify-content: center; */
+  /* background-color: red; */
+  outline: 1px solid rgb(255, 0, 98);
 }
 
-.meta:not(:last-child) {
-  /* margin-right: 30px; */
+.meta:not(:first-child) {
+  margin-right: 30px;
 }
 
 .meta:hover {
-  background-color: #2196f3;
-  color: blueviolet;
+  /* background-color: #2196f3; */
+  /* color: blueviolet; */
 }
 
 .dfg {
   /* display: inline-block; */
-  display: flex;
-  /* flex-wrap: wrap; */
+  display: inline-flex;
+  flex-wrap: wrap;
   /* align-self: flex-end; */
   margin-right: 30px;
-  background-color: #21f352;
+  /* background-color: #21f352; */
 }
 
 .icon {
-  padding: 16px 32px;
-  display: flex;
+  margin: 16px 32px;
+  display: inline-block;
+  /* justify-items: center; */
   width: 106px;
   height: 80px;
   outline: 1px solid rgb(0, 255, 8);
   border-radius: 6px;
   fill: #afb1b8;
-background-color: tomato;
+/* background-color: tomato; */
 }
 
-.icon {
-  /* stroke: currentColor; */
-  /* fill: brown; */
+.icon:hover {
+background-color: #2196f3;
+  fill: #fff;
 }
 
-.cust_img {
+.meta:hover {
+  background-color: #2196f3;
 }
 
 /* Section Portfolio */
