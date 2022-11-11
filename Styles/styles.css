@@ -444,12 +444,12 @@ a {
 }
 
 .icon:hover {
-background-color: #2196f3;
-  fill: #fff;
+background-color: #ffffff;
+  fill: #2196f3;
 }
 
 .meta:hover {
-  background-color: #2196f3;
+  background-color: #ffffff;
 }
 
 /* Section Portfolio */
