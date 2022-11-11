@@ -521,6 +521,7 @@ a {
 
 .client {
   background-color: #ffffff;
+  display: flexbox;
 }
 
 .regular_conteiner {
@@ -537,46 +538,41 @@ a {
 }
 
 .meta {
-  width: 150px;
-  height: 120px;
+  display: inline-block;
+  text-align: center;
+  width: 170px;
+  /* height: 92px; */
   /* border: 0; */
-}
-
-.dfg {
-  width: 120px;
-  height: 120px;
-}
-
-.icon {
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  outline: 1px solid red;
-  border-radius: 6px;
-  /* background-color: #2196f3; */
-}
-
-/* .icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
-.icon-Object {
-  width: 1.0712890625em;
-} */
-
-.icon {
-  /* width: 105px; */
-  /* display: inline-block; */
-  /* stroke: currentColor; */
-  fill: brown;
+  /* justify-content: center; */
 }
 
 .meta:not(:last-child) {
   margin-right: 30px;
+}
+
+.meta:hover {
+  background-color: #fff;
+  color: blueviolet;
+}
+
+/* .dfg {
+  width: 120px;
+  height: 120px;
+} */
+
+.icon {
+  padding: 16px 32px;
+  display: flex;
+  width: 106px;
+  height: 80px;
+  outline: 1px solid red;
+  border-radius: 6px;
+  background-color: #2196f3;
+}
+
+.icon {
+  /* stroke: currentColor; */
+  fill: brown;
 }
 
 .customers {
@@ -586,11 +582,6 @@ a {
 }
 
 .cust_img {
-}
-
-.meta:hover {
-  background-color: #fff;
-  color: blueviolet;
 }
 
 /* Footer */
