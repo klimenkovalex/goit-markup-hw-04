@@ -372,6 +372,83 @@ a {
   color: #757575;
 }
 
+/* Regular customers */
+
+.client {
+  padding-top: 87px;
+  background-color: #ffffff;
+  display: flexbox;
+}
+
+.regular_conteiner {
+  /* padding-top: 87px; */
+  margin-bottom: 101px;
+  outline: 1px solid rgb(106, 0, 255);
+}
+
+.customers {
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.cust_link {
+  display: flex;
+  /* align-self: flex-end;
+  flex-wrap: wrap; */
+  /* padding: 0; */
+  /* margin-top: 16px;
+  margin-bottom: 16px; */
+  outline: 1px solid red;
+  background-color: #3a2f2f;
+}
+
+.meta {
+  display: inline-block;
+  /* text-align: center; */
+  width: 170px;
+  /* height: 92px; */
+  /* border: 0; */
+  justify-content: center;
+  background-color: red;
+}
+
+.meta:not(:last-child) {
+  /* margin-right: 30px; */
+}
+
+.meta:hover {
+  background-color: #2196f3;
+  color: blueviolet;
+}
+
+.dfg {
+  /* display: inline-block; */
+  display: flex;
+  /* flex-wrap: wrap; */
+  /* align-self: flex-end; */
+  margin-right: 30px;
+  background-color: #21f352;
+}
+
+.icon {
+  padding: 16px 32px;
+  display: flex;
+  width: 106px;
+  height: 80px;
+  outline: 1px solid rgb(0, 255, 8);
+  border-radius: 6px;
+  fill: #afb1b8;
+background-color: tomato;
+}
+
+.icon {
+  /* stroke: currentColor; */
+  /* fill: brown; */
+}
+
+.cust_img {
+}
+
 /* Section Portfolio */
 
 .section_portfolio {
@@ -515,76 +592,6 @@ a {
   line-height: calc(30 / 16);
   color: #757575;
   /* background-color: red; */
-}
-
-/* Regular customers */
-
-.client {
-  padding-top: 87px;
-  background-color: #ffffff;
-  display: flexbox;
-}
-
-.regular_conteiner {
-  /* padding-top: 87px; */
-  margin-bottom: 101px;
-  outline: 1px solid rgb(106, 0, 255);
-}
-
-.customers {
-  padding-bottom: 50px;
-  text-align: center;
-}
-
-.cust_link {
-  display: flex;
-  /* padding: 0; */
-  /* margin-top: 16px;
-  margin-bottom: 16px; */
-  outline: 1px solid red;
-  /* background-color: #3a2f2f; */
-}
-
-.meta {
-  display: inline-block;
-  text-align: center;
-  width: 170px;
-  /* height: 92px; */
-  /* border: 0; */
-  justify-content: center;
-}
-
-.meta:not(:last-child) {
-  /* margin-right: 30px; */
-}
-
-.meta:hover {
-  background-color: #fff;
-  color: blueviolet;
-}
-
-/* .dfg {
-  width: 120px;
-  height: 120px;
-} */
-
-.icon {
-  padding: 16px 32px;
-  display: flex;
-  width: 106px;
-  height: 80px;
-  outline: 1px solid red;
-  border-radius: 6px;
-  background-color: #fff;
-  fill: #afb1b8;
-}
-
-.icon {
-  /* stroke: currentColor; */
-  fill: brown;
-}
-
-.cust_img {
 }
 
 /* Footer */
