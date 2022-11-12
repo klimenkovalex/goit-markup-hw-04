@@ -198,11 +198,18 @@ a {
 /* Hero */
 
 .hero {
+  background: rgba(47, 48, 58, 0.4);
+}
+
+.hero {
+  /* width: 1600px; */
   margin: 0px;
   background: #2f303a;
   margin-bottom: 94px;
   text-align: center;
   background-image: url(../img/bgc-img-hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .main_class {
@@ -444,12 +451,13 @@ a {
   fill: #afb1b8;
   /* background-color: tomato; */
 }
-
+/* 
 .icon:hover {
-  /* background-color: #ffffff; */
+  background-color: #ffffff;
   fill: #2196f3;
-}
+} */
 
+.icon:hover,
 .meta:hover {
   fill: #2196f3;
   outline: 1px solid #2196f3;
