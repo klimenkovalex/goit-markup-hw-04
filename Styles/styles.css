@@ -462,11 +462,16 @@ a {
 
 .cust_link .dfg:hover,
 .cust_link .dfg:focus,
+.icon:hover,
 .meta:hover {
   fill: #2196f3;
-  outline: 1px solid #2196f3;
+  /* outline: 1px solid #2196f3; */
   border-radius: 4px;
   background-color: #ffffff;
+}
+
+.meta:hover {
+  outline: 1px solid #2196f3;
 }
 
 /* Section Portfolio */
