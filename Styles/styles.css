@@ -379,6 +379,49 @@ a {
   color: #757575;
 }
 
+.social-icon {
+  display: flex;
+  align-items: center;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+  display: flex;
+  /* background-color: tomato; */
+}
+
+.social-item {
+  width: 44px;
+  height: 44px;
+  margin-right: 10px;
+  /* background-color: #f80808; */
+}
+
+.social-item:nth-child(4) {
+  margin-right: 0px;
+}
+
+.social-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: #AFB1B8;
+  /* background-color: #0417ed; */
+}
+
+.social-icon .icon {
+  fill: currentColor;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: #2196F3;
+  color: #fff;
+}
+
 /* Regular customers */
 
 .client {
@@ -421,7 +464,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  fill: #2196f3;
+  fill: #afb1b8;
 }
 
 .dfg:not(:last-child) {
@@ -436,8 +479,6 @@ a {
   border-color: #fff;
 }
 
-
-
 .dfg {
   display: inline-flex;
   border-radius: 4px;
@@ -447,7 +488,6 @@ a {
   fill: #afb1b8;
   /* background-color: tomato; */
 }
-
 
 .meta:hover {
   outline: 1px solid #2196f3;
