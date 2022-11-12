@@ -383,7 +383,7 @@ a {
 .regular_conteiner {
   /* padding-top: 87px; */
   margin-bottom: 101px;
-  outline: 1px solid rgb(106, 0, 255);
+  /* outline: 1px solid rgb(106, 0, 255); */
 }
 
 .customers {
@@ -446,11 +446,13 @@ a {
 }
 
 .icon:hover {
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   fill: #2196f3;
 }
 
 .meta:hover {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
   background-color: #ffffff;
 }
 
