@@ -414,7 +414,8 @@ a {
 .social-icon .icon {
   fill: currentColor;
 }
-
+.social-item:hover,
+.social-item:focus,
 .social-link:hover,
 .social-link:focus {
   background-color: #2196f3;
