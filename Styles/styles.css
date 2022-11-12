@@ -451,16 +451,15 @@ a {
   fill: #afb1b8;
   /* background-color: tomato; */
 }
-/* 
-.icon:hover {
-  background-color: #ffffff;
-  fill: #2196f3;
-} */
 
-.icon:hover,
+.icon:hover {
+  /* background-color: #ffffff; */
+  /* fill: #2196f3; */
+}
+
 .meta:hover {
   fill: #2196f3;
-  outline: 1px solid #2196f3;
+   outline: 1px solid #2196f3;
   border-radius: 4px;
   background-color: #ffffff;
 }
