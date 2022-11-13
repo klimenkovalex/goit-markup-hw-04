@@ -171,6 +171,7 @@ a {
   color: #212121;
 }
 
+.item_svg:hover,
 .mail:hover,
 .studio:hover,
 .tel:hover,
@@ -178,6 +179,14 @@ a {
 .contacs:hover {
   color: #2196f3;
 }
+
+
+.item_svg {
+  width: 10px;
+  height: 16px;
+  color: #757575;
+}
+
 
 /* Top line */
 
