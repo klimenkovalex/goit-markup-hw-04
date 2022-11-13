@@ -753,7 +753,8 @@ a {
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
-  color: #ffff;
+  /* color: #ffff; */
+  color: #fff;
 }
 
 .social-icons > .social-item {
@@ -762,5 +763,15 @@ a {
   border-radius: 50%;
   display: inline-block;
   justify-content: flex-start;
-  background-color: #f80808;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.social-icons > .social-link {
+  color: #2196f3;
+}
+
+.social-icons > .social-item:hover,
+.social-icons > .social-link:hover {
+  color: #fff;
+  background-color: #2196f3;
 }
