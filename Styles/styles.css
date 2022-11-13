@@ -171,6 +171,14 @@ a {
   color: #212121;
 }
 
+.item_svg {
+  width: 10px;
+  height: 16px;
+  outline: 1px solid #2196f3;
+  padding-left: 10px;
+  background: #757575;
+}
+
 .item_svg:hover,
 .mail:hover,
 .studio:hover,
