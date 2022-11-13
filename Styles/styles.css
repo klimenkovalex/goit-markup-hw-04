@@ -175,8 +175,7 @@ a {
   width: 10px;
   height: 16px;
   outline: 1px solid #2196f3;
-  padding-left: 10px;
-  background: #757575;
+  padding-right: 10px;
 }
 
 .item_svg:hover,
@@ -208,12 +207,21 @@ a {
   color: #757575;
 }
 
+.mail::before {
+  background-image: url(../img/icons.svg#icon-envelope);
+  outline: 1px solid #f32121;
+}
+
 .tel {
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   color: #757575;
+}
+
+.tel::before {
+  background-image: url(../img/icons.svg#icon-smartphone);
 }
 
 /* Hero */
@@ -320,6 +328,7 @@ a {
 
 .description_img {
   display: flex;
+  padding-bottom: 30px;
 }
 
 .disc_img {
