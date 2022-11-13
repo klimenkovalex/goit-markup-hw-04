@@ -208,6 +208,7 @@ a {
 }
 
 .mail::before {
+  padding-left: 10px;
   background-image: url(../img/icons.svg#icon-envelope);
   outline: 1px solid #f32121;
 }
@@ -221,6 +222,7 @@ a {
 }
 
 .tel::before {
+  padding-left: 10px;
   background-image: url(../img/icons.svg#icon-smartphone);
 }
 
