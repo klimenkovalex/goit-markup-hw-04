@@ -407,6 +407,7 @@ background-color: #f5f4fa;
 .social-item {
   width: 44px;
   height: 44px;
+  border-radius: 50%;
   justify-content: start;
   /* background-color: #f80808; */
 }
@@ -423,7 +424,8 @@ background-color: #f5f4fa;
   justify-content: center;
   border-radius: 50%;
   color: #afb1b8;
-  /* background-color: #0417ed; */
+  /* outline: 1px solid #d6094a; */
+  /* background-color: tomato; */
 }
 
 .social-icon .icon {
@@ -431,9 +433,13 @@ background-color: #f5f4fa;
 }
 
 /* .social-item:hover,
-.social-item:focus {
-} */
-.social-link:hover,
+.social-item:focus, */
+ 
+
+
+ .social-item:hover,
+.social-item:focus,
+.social-link:hover
 .social-link:focus {
   background-color: #2196f3;
   color: #fff;
