@@ -303,7 +303,7 @@ a {
 
 .disc_img {
   padding: 25px 100px;
-  outline: 1px solid #e80b85;
+  /* outline: 1px solid #e80b85; */
 background-color: #f5f4fa;
 }
 
@@ -430,8 +430,9 @@ background-color: #f5f4fa;
   fill: currentColor;
 }
 
-.social-item:hover,
-.social-item:focus,
+/* .social-item:hover,
+.social-item:focus {
+} */
 .social-link:hover,
 .social-link:focus {
   background-color: #2196f3;
