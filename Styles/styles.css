@@ -302,6 +302,8 @@ a {
 }
 
 .disc_img {
+  padding: 25px 100px;
+  outline: 1px solid #e80b85;
 background-color: #f5f4fa;
 }
 
