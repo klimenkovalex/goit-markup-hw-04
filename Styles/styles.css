@@ -57,7 +57,7 @@ a {
 }
 
 .footer {
-  cursor: none;
+  /* cursor: none; */
 }
 
 /* Header */
@@ -453,6 +453,7 @@ a {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  background-color: #ffffff;
   color: #afb1b8;
   /* outline: 1px solid #d6094a; */
   /* background-color: tomato; */
@@ -462,12 +463,10 @@ a {
   fill: currentColor;
 }
 
-/* .social-item:hover,
-.social-item:focus, */
-
-.social-item:hover,
-.social-item:focus,
-.social-link:hover .social-link:focus {
+/* .icon:focus,
+.icon:hover, */
+.user_team .social-link:hover,
+.user_team .social-link:focus {
   background-color: #2196f3;
   color: #fff;
 }
@@ -514,19 +513,26 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: #ffff;
   fill: #afb1b8;
-}
-
-.dfg:not(:last-child) {
-  margin-right: 30px;
 }
 
 .cust_link .dfg:hover,
 .cust_link .dfg:focus,
-.icon:hover,
-.icon:focus {
+.cust_link .icon:hover,
+.cust_link .icon:focus {
   fill: #2196f3;
-  border-color: #fff;
+  border-color: #2196f3;
+}
+
+/* .cust_link .meta:hover, */
+.cust_link .icon {
+border-color: #2196f3;
+}
+
+
+.dfg:not(:last-child) {
+  margin-right: 30px;
 }
 
 .dfg {
@@ -535,13 +541,10 @@ a {
 }
 
 .icon {
-  fill: #afb1b8;
+  fill: currentColor;
   /* background-color: tomato; */
 }
 
-.meta:hover {
-  outline: 1px solid #2196f3;
-}
 
 /* Section Portfolio */
 
@@ -763,15 +766,29 @@ a {
   border-radius: 50%;
   display: inline-block;
   justify-content: flex-start;
-  background: rgba(255, 255, 255, 0.1);
+  /* background: rgba(255, 255, 255, 0.18); */
+}
+.social-icons .social-link {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.105);
+  color: #ffffff;
 }
 
-.social-icons > .social-link {
-  color: #2196f3;
+.social-icons .icon {
+  fill: currentColor;
 }
 
-.social-icons > .social-item:hover,
-.social-icons > .social-link:hover {
-  color: #fff;
+.social-icons .social-link:hover,
+.social-icons .social-link:focus {
   background-color: #2196f3;
+  color: #ffffff;
 }
+
+/* .social-icons .social-link:hover { */
+/* background-color: #2196f3; */
+/* color: #fff; */
