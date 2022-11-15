@@ -19,7 +19,7 @@
   </head>
   <body>
     <!--Header-->
-    <header>
+    <header class="header">
       <div class="conteiner header_navi">
         <nav>
           <ul class="header_list list">
@@ -55,14 +55,23 @@
               class="mail"
               href="mailto:info@devstudio.com"
               rel="noopeper noreforrer nofollow"
-              >info@devstudio.com</a
-            >
+              ><svg class="envelope" width="16" height="12">
+                <use href="./img/icons.svg#icon-envelope"></use>
+              </svg>
+              <span style="vertical-align: inherit">info@devstudio.com</span>
+            </a>
           </li>
           <li class="item">
-            <a class="tel" href="tel:+380961111111">+380 96 111 11 11</a>
+            <a class="tel" href="tel:+380961111111">
+              <svg class="smartphone" width="10" height="16">
+                <use href="./img/icons.svg#icon-smartphone"></use>
+              </svg>
+              <span>+380 96 111 11 11</span></a
+            >
           </li>
         </ul>
       </div>
+    </header>
     </header>
     <hr class="line" />
     <!--Section Portfolio-->
@@ -195,40 +204,79 @@
       </div>
     </section>
     <!-- Footer -->
-    <footer class="footer">
+   <footer class="footer">
       <div class="conteiner conteiner_footer">
-        <a
-          class="footer_web"
-          href="./index.html"
-          rel="noopeper noreforrer nofollow"
-        >
-          <span class="web">Web</span>
-          <span class="web_studio">Studio</span></a
-        >
-        <address>
-          <ul class="footer_list list">
-            <li class="footer_href">
-              <a
-                class="navigation"
-                href="https://goo.gl/maps/btzMH1qsc4WPmSUG9"
-                rel="noopeper noreforrer nofollow"
-              >
-                м. Київ, пр-т Лесі Укріїнки, 26
+        <div class="aaa">
+          <a
+            class="footer_web"
+            href="./index.html"
+            rel="noopeper noreforrer nofollow"
+          >
+            <span class="web">Web</span>
+            <span class="web_studio">Studio</span></a
+          >
+          <address class="ftr_adress">
+            <ul class="footer_list list">
+              <li class="footer_href">
+                <a
+                  class="navigation"
+                  href="https://goo.gl/maps/btzMH1qsc4WPmSUG9"
+                  rel="noopeper noreforrer nofollow"
+                >
+                  м. Київ, пр-т Лесі Укріїнки, 26
+                </a>
+              </li>
+              <li class="footer_href">
+                <a
+                  class="footer_mail"
+                  href="mailto:info@devstudio.com"
+                  rel="noopeper noreforrer nofollow"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li class="footer_href">
+                <a class="footer_tel" href="tel:+380961111111">+38096111111</a>
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div class="footer_icons">
+          <ul class="social-icons">
+            <h3 class="social_ftr">приєднуйтесь</h3>
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="icon" width="20" height="20">
+                  <use href="./img/icons.svg#icon-instagram-2"></use>
+                  >
+                </svg>
               </a>
             </li>
-            <li class="footer_href">
-              <a
-                class="footer_mail"
-                href="mailto:info@devstudio.com"
-                rel="noopeper noreforrer nofollow"
-                >info@devstudio.com</a
-              >
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="icon" width="20" height="20">
+                  <use href="./img/icons.svg#icon-twitter-1"></use>
+                  >
+                </svg>
+              </a>
             </li>
-            <li class="footer_href">
-              <a class="footer_tel" href="tel:+380961111111">+38096111111</a>
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="icon" width="20" height="20">
+                  <use href="./img/icons.svg#icon-facebook-1"></use>
+                  >
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a href="" class="social-link">
+                <svg class="icon" width="20" height="20">
+                  <use href="./img/icons.svg#icon-linkedin-1"></use>
+                  >
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </div>
       </div>
     </footer>
   </body>
