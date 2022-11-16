@@ -193,11 +193,9 @@ a {
 /* Top line */
 
 .mail {
-  /* padding-left: 10px; */
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-left: 10px; */
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -205,26 +203,16 @@ a {
   color: #757575;
 }
 
-.mail {
-  /* display: inline-flex; */
-  /* vertical-align: inherit; */
-  /* align-items: center; */
-  /* font-weight: 500; */
-  /* font-size: 14px; */
-  /* line-height: calc(16 / 14); */
-  /* letter-spacing: 0.02em; */
-  /* color: #757575; */
-}
-
-.envelop {
+.envelope {
   /* display: flex; */
   margin-right: 10px;
-  /* align-items: center; */
+  align-items: center;
   fill: #757575;
 }
 
 .tel {
-  /* align-items: center; */
+  display: flex;
+  height: 16px;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
@@ -235,22 +223,22 @@ a {
 .smartphone {
   /* display: inline; */
   margin-right: 10px;
-  /* align-items: center; */
+  align-items: center;
   fill: #757575;
 }
 
-.out_list .envelop:focus,
-.out_list .envelop:hover,
+.out_list .envelope:focus,
+.out_list .envelope:hover,
 .out_list .smartphone:focus,
 .out_list .smartphone:hover {
   fill: #2196f3;
 }
 
 .out_list .mail:focus,
-.out_list .mail:hover 
+.out_list .mail:hover,
 .out_list .tel:focus,
 .out_list .tel:hover {
-  color: #2196f3;
+  fill: #2196f3;
 }
 
 /* Hero */
